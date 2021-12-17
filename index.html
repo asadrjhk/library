@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Library-Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="header">My Library</div>
+    <div class="main">
+      <button class="add-new-book">ADD NEW BOOK</button>
+      <div class="form-container">
+        <form action="" id="form">
+          <ul>
+          <li> 
+          <label for="author">Author</label>
+          <input type="text" id="author" required></li>
+
+          <li>
+            <label for="title">Title</label>
+          <input type="text" id="title" required>
+          </li>
+
+           <li>
+             <label for="pages">Pages</label>
+          <input type="text" id="pages" required>
+           </li>
+
+          <li>
+             <label for="status">Status</label>
+          <input type="text" id="status" required>
+          </li>
+
+          <li class="btn">
+             <button type="submit" id="submit"  >Submit</button>
+          <button id="cancel"  >Cancel</button>
+          </li>
+          </ul>
+
+        </form>
+      </div>
+      <div class="books"></div>
+    </div>
+   <div class="footer">Made With ❤️</div>
+    <script src="script.js"></script>
+  </body>
+</html>
